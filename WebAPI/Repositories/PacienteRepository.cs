@@ -18,7 +18,7 @@ namespace WebAPI.Repositories
             //cpf
             //endereco logradouro numero cep
 
-            Paciente pacienteBuscado = ctx.Pacientes.FirstOrDefault(x => x.Id == Id)!;
+            Paciente pacienteBuscado = ctx.Pacientes.Include(x => x.Endereco).Include(x => x.IdNavigation).FirstOrDefault(x => x.Id == Id)!;
 
             if (paciente.Foto != null)
                 pacienteBuscado!.IdNavigation.Foto = paciente.Foto;

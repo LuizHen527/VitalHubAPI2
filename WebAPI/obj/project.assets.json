@@ -3353,11 +3353,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\38606125814\\Desktop\\API2\\2023-3S-3DS-Alunos\\API-VitalHub\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\38606125814\\Desktop\\API2\\2023-3S-3DS-Alunos\\API-VitalHub\\API2\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\38606125814\\Desktop\\API2\\2023-3S-3DS-Alunos\\API-VitalHub\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\38606125814\\Desktop\\API2\\2023-3S-3DS-Alunos\\API-VitalHub\\API2\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\38606125814\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\38606125814\\Desktop\\API2\\2023-3S-3DS-Alunos\\API-VitalHub\\WebAPI\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\38606125814\\Desktop\\API2\\2023-3S-3DS-Alunos\\API-VitalHub\\API2\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
