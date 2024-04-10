@@ -5,7 +5,7 @@ namespace WebAPI.Domains;
 
 public partial class TiposUsuario
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
+    public Guid Id { get; set; }
 
     public string? TipoUsuario { get; set; }
 

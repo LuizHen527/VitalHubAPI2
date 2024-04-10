@@ -5,7 +5,7 @@ namespace WebAPI.Domains;
 
 public partial class MedicosClinica
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
+    public Guid Id { get; set; }
 
     public Guid? ClinicaId { get; set; }
 

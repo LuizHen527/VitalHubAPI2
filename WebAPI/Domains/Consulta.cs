@@ -5,7 +5,7 @@ namespace WebAPI.Domains;
 
 public partial class Consulta
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
+    public Guid Id { get; set; }
 
     public Guid? SituacaoId { get; set; }
 
@@ -33,5 +33,5 @@ public partial class Consulta
 
     public virtual Receita? Receita { get; set; }
 
-    public virtual SituacaoConsulta? Situacao { get; set; }
+    public virtual Situaco? Situacao { get; set; }
 }
