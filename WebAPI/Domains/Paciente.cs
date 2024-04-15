@@ -5,7 +5,7 @@ namespace WebAPI.Domains;
 
 public partial class Paciente
 {
-    public Guid Id { get; set; }
+    public Guid Id { get; set; } = Guid.NewGuid();
 
     public DateTime? DataNascimento { get; set; }
 

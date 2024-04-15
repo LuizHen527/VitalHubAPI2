@@ -5,7 +5,7 @@ namespace WebAPI.Domains;
 
 public partial class NiveisPrioridade
 {
-    public Guid Id { get; set; }
+    public Guid Id { get; set; } = Guid.NewGuid();
 
     public int Prioridade { get; set; }
 

@@ -5,7 +5,7 @@ namespace WebAPI.Domains;
 
 public partial class Consulta
 {
-    public Guid Id { get; set; }
+    public Guid Id { get; set; } = Guid.NewGuid();
 
     public Guid? SituacaoId { get; set; }
 
