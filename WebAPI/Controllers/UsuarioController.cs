@@ -64,7 +64,7 @@ namespace WebAPI.Controllers
                 }
 
 
-                var connectionString = "4SK8heJtDXFV4YBK1/HNIUtsULlhFZRqou4QCulcLCHRaUGU/4cnI0GtpyfnXDQY+uEFDxYvICPj+AStI0834w==\r\n\r\n";
+                var connectionString = "";
 
 
                 var containerName = "blobvitalcontainer";
