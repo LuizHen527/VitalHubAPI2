@@ -61,7 +61,7 @@ namespace WebAPI.Controllers
 
                 var containerName = "blobvitalcontainer";
 
-                var connectionString = "";
+                var connectionString = "DefaultEndpointsProtocol=https;AccountName=blobvitalhub3dmg2;AccountKey=4SK8heJtDXFV4YBK1/HNIUtsULlhFZRqou4QCulcLCHRaUGU/4cnI0GtpyfnXDQY+uEFDxYvICPj+AStI0834w==;EndpointSuffix=core.windows.net";
 
 
                 user.Foto = await AzureBlobStorageHelper.UploadImageBlobAsync(pacienteModel.Arquivo!, connectionString, containerName);
@@ -108,6 +108,8 @@ namespace WebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+
 
         [HttpPut]
         public IActionResult UpdateProfile(Guid idUsuario, PacienteViewModel paciente)

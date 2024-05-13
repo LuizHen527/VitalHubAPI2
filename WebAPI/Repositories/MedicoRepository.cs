@@ -56,6 +56,8 @@ namespace WebAPI.Repositories
             }
         }
 
+
+
         public List<Consulta> BuscarPorData(DateTime dataConsulta, Guid idMedico)
         {
             try
@@ -65,6 +67,35 @@ namespace WebAPI.Repositories
                      .Include(x => x.Prioridade)
                      .Include(x => x.MedicoClinica)
                      .Include(x => x.Paciente!.IdNavigation)
+                     .Select(x => new Consulta
+                     {
+                         
+                         DataConsulta = x.DataConsulta,
+                         Paciente = new Paciente
+                         {
+                             Id = x.Id,
+                             DataNascimento = x.Paciente.DataNascimento,
+
+                             IdNavigation = new Usuario
+                             {
+                                 Nome = x.Paciente.IdNavigation.Nome,
+                                 Foto = x.Paciente.IdNavigation.Foto
+                             },
+                             
+                         },
+
+                         Situacao = x.Situacao,
+                         Prioridade = x.Prioridade,
+
+                        
+                         MedicoClinica = new MedicosClinica
+                         {
+                             MedicoId = x.MedicoClinica!.MedicoId
+                         }
+                         
+                         
+                         
+                     })
 
                      // diferença em dias entre a Data da Consulta e a dataConsulta é igual a 0.
                      .Where(x => x.MedicoClinica!.MedicoId == idMedico && EF.Functions.DateDiffDay(x.DataConsulta, dataConsulta) == 0)

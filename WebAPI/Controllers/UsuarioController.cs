@@ -64,7 +64,7 @@ namespace WebAPI.Controllers
                 }
 
 
-                var connectionString = "";
+                var connectionString = "DefaultEndpointsProtocol=https;AccountName=blobvitalhub3dmg2;AccountKey=4SK8heJtDXFV4YBK1/HNIUtsULlhFZRqou4QCulcLCHRaUGU/4cnI0GtpyfnXDQY+uEFDxYvICPj+AStI0834w==;EndpointSuffix=core.windows.net";
 
 
                 var containerName = "blobvitalcontainer";
