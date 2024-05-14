@@ -8831,24 +8831,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\38606125814\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Luiz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\38606125814\\Desktop\\API2\\2023-3S-3DS-Alunos\\API-VitalHub\\API2\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Luiz\\Desktop\\DevProjetos\\SENAI\\VitalHub\\VitalHubAPI2\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\38606125814\\Desktop\\API2\\2023-3S-3DS-Alunos\\API-VitalHub\\API2\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\38606125814\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\38606125814\\Desktop\\API2\\2023-3S-3DS-Alunos\\API-VitalHub\\API2\\WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\Luiz\\Desktop\\DevProjetos\\SENAI\\VitalHub\\VitalHubAPI2\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\Luiz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Luiz\\Desktop\\DevProjetos\\SENAI\\VitalHub\\VitalHubAPI2\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\38606125814\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Luiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8856,7 +8851,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8869,6 +8863,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -8944,19 +8943,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.15, 7.0.15]"
+            "version": "[7.0.18, 7.0.18]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[7.0.15, 7.0.15]"
+            "version": "[7.0.18, 7.0.18]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.15, 7.0.15]"
+            "version": "[7.0.18, 7.0.18]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.15, 7.0.15]"
+            "version": "[7.0.18, 7.0.18]"
           }
         ],
         "frameworkReferences": {
@@ -8967,7 +8966,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   },

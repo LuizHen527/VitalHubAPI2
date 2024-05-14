@@ -83,6 +83,7 @@ namespace WebAPI.Repositories
                              },
                              
                          },
+                         
 
                          Situacao = x.Situacao,
                          Prioridade = x.Prioridade,
@@ -90,7 +91,15 @@ namespace WebAPI.Repositories
                         
                          MedicoClinica = new MedicosClinica
                          {
-                             MedicoId = x.MedicoClinica!.MedicoId
+                             MedicoId = x.MedicoClinica!.MedicoId,
+                             Medico = new Medico
+                             {
+                                 IdNavigation = new Usuario
+                                 {
+                                     Foto = x.MedicoClinica!.Medico!.IdNavigation.Foto,
+                                 }
+                             }
+                             
                          }
                          
                          
