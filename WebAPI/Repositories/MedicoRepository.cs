@@ -70,6 +70,7 @@ namespace WebAPI.Repositories
                      .Select(x => new Consulta
                      {
                          
+                         
                          DataConsulta = x.DataConsulta,
                          Paciente = new Paciente
                          {
@@ -98,11 +99,13 @@ namespace WebAPI.Repositories
                                  {
                                      Foto = x.MedicoClinica!.Medico!.IdNavigation.Foto,
                                  }
-                             }
+                             },
+
+                             ClinicaId = x.MedicoClinica.ClinicaId
                              
-                         }
+                         },
                          
-                         
+                         Id = x.Id,
                          
                      })
 
